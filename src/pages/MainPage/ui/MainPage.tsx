@@ -5,7 +5,6 @@ const MainPage = () => {
     const {t} = useTranslation('main');
     return (
         <div>   
-            {t ('Доброе утро')}
             {t ('Главная страница')}
         </div>
     );
