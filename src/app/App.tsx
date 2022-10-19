@@ -5,6 +5,7 @@ import { AppRouter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 import { Suspense } from 'react';
+import { t } from 'i18next';
 
 const App = () => {
     const { theme } = useTheme();
