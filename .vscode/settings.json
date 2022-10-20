@@ -10,4 +10,6 @@
      "editor.codeActionsOnSave": {
        "source.fixAll.stylelint": true
      },
+    "files.eol": "\n",
+    "i18n-ally.keystyle": "flat",
 }
