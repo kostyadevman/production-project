@@ -18,5 +18,9 @@
         "compilerOptions": {
           "module": "CommonJS"
         }
-    }
+    },
+    // "include": [
+    //   "srd",
+    //   "./config/jest/setupTests.ts",
+    // ]
   }
