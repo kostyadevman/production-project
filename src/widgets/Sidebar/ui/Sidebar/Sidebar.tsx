@@ -1,4 +1,3 @@
-import { t } from 'i18next';
 import React, { useState } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Button } from 'shared/ui/Button/Button';
@@ -33,8 +32,9 @@ export const Sidebar = ({ className }: SidebarProps) => {
                 data-testid="sidebar-toggle"
                 type="button"
                 onClick={onToogle}
+            // eslint-disable-next-line i18next/no-literal-string
             >
-                {t('toggle')}
+                toggle
             </Button>
             <div className={cls.switchers}>
                 <ThemeSwitcher />
