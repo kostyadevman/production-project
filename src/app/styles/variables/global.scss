@@ -1,5 +1,5 @@
 /* stylelint-disable CssSyntaxError */
-    :root {
+:root {
     --font-famaly-main: "Times New Roman", serif;
     --font-size-m: 16px;
     --font-line-m: 24px;
@@ -10,7 +10,7 @@
     --font-size-xl: 32px;
     --font-line-xl: 40px;
     --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-famaly-main);
-   
+
     /* Размеры */
     --navbar-height: 50px;
     --sidebar-width: 300px;
@@ -20,5 +20,5 @@
     --modal-z-index: 10;
 
     /* Цвета */
-    --overlay-color: rgba( 0 0 0 / 60%);
+    --overlay-color: rgba(0 0 0 / 60%);
 }
