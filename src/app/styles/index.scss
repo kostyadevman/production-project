@@ -3,11 +3,15 @@
 @import "reset";
 @import "./variables/global";
 
-.app {
-    min-height: 100vh;
+body {
     color: var(--primary-color);
     font: var(--font-m);
+}
+
+.app {
+    min-height: 100vh;
     background: var(--bg-color);
+    color: var(--primary-color);
 }
 
 .content-page {
