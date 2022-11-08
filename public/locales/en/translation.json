@@ -9,5 +9,7 @@
   "Обновить страницу": "Reload page",
   "Переключить": "Переключить",
   "Короткий язык": "En",
-  "Войти": "SignIn"
+  "Войти": "SignIn",
+  "Введите пароль": "Enter the password",
+  "Введите username": "Enter the username"
 }
