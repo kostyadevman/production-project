@@ -10,6 +10,8 @@
   "Переключить": "Переключить",
   "Короткий язык": "En",
   "Войти": "SignIn",
+  "Выйти": "LogOut",
   "Введите пароль": "Enter the password",
-  "Введите username": "Enter the username"
+  "Введите username": "Enter the username",
+  "Форма авторизации": "Authorization form"
 }

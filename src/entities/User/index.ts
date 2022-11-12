@@ -1,3 +1,8 @@
+import {
+    getUserAuthData,
+} from './model/selectors/getUserAuthData/getUserAuthData';
+
+export { getUserAuthData };
 export {
     userReducer,
     userActions,
