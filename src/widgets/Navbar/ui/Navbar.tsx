@@ -32,17 +32,30 @@ export const Navbar = ({ className }: NavbarProps) => {
         setIsAuthModal(false);
     }, [dispatch]);
 
+    if (authData) {
+        return (
+            <div className={classNames(cls.navbar, {}, [className])}>
+                <Button
+                    theme={ButtonTheme.CLEAR_INVERTED}
+                    className={cls.links}
+                    onClick={onLogout}
+                >
+                    {t('Выйти')}
+                </Button>
+            </div>
+        );
+    }
+
     return (
         <div className={classNames(cls.navbar, {}, [className])}>
             <Button
-                type="button"
-                theme={ButtonTheme.ClEAR_INVERTED}
+                theme={ButtonTheme.CLEAR_INVERTED}
                 className={cls.links}
-                onClick={authData ? onLogout : onShowModal}
+                onClick={onShowModal}
             >
-                {authData ? `${t('Выйти')}` : `${t('Войти')}`}
+                {t('Войти')}
             </Button>
-            {!authData && (
+            {isAuthModal && (
                 <LoginModal
                     isOpen={isAuthModal}
                     onClose={onCloseModal}
