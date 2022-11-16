@@ -10,7 +10,7 @@ interface ProfilePageProps {
 
 const reducers: ReducerList = {
     profile: profileReducer,
-}
+};
 
 export const ProfilePage = ({ className }: ProfilePageProps) => {
     const { t } = useTranslation();
