@@ -1,4 +1,5 @@
-import { NavigateOptions, To } from 'react-router-dom';
+import { To } from 'history';
+import { NavigateOptions } from 'react-router';
 import { ProfileSchema } from 'entities/Profile';
 import { UserSchema } from 'entities/User';
 import { CounterSchema } from 'entities/Counter';
