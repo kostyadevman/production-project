@@ -14,5 +14,9 @@
   "Введите пароль": "Enter the password",
   "Введите username": "Enter the username",
   "Форма авторизации": "Authorization form",
-  "Профиль": "Profile"
+  "Профиль": "Profile",
+  "Редактировать": "Edit",
+  "Ваше имя": "Your firstname",
+  "Ваше фамтлия": "Your lastname"
+
 }

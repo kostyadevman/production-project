@@ -17,7 +17,6 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
     children: 'Text',
-    theme: '',
 };
 
 export const Clear = Template.bind({});

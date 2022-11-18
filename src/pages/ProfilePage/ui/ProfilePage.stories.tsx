@@ -14,7 +14,7 @@ export default {
 } as ComponentMeta<typeof ProfilePage>;
 
 // eslint-disable-next-line react/jsx-props-no-spreading
-const Template: ComponentStory<typeof ProfilePage> = (args) => <ProfilePage />;
+const Template: ComponentStory<typeof ProfilePage> = () => <ProfilePage />;
 
 export const Normal = Template.bind({});
 Normal.args = {};
@@ -24,7 +24,6 @@ Normal.decorators = [StoreDecorator({
 
 export const Dark = Template.bind({});
 Dark.args = {};
-Dark.decorators = [];
 Dark.decorators = [
     ThemeDecorator(Theme.DARK),
     StoreDecorator(
