@@ -19,7 +19,7 @@ const Template: ComponentStory<typeof ProfilePage> = () => <ProfilePage />;
 export const Normal = Template.bind({});
 Normal.args = {};
 Normal.decorators = [StoreDecorator({
-    profile: { isLoading: false, error: '', readonly: true },
+    profile: { isLoading: false, error: undefined, readonly: true },
 })];
 
 export const Dark = Template.bind({});
