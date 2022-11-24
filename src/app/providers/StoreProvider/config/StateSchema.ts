@@ -8,6 +8,7 @@ import {
     AnyAction, CombinedState, EnhancedStore, Reducer, ReducersMapObject,
 } from '@reduxjs/toolkit';
 import { AxiosInstance } from 'axios';
+import { ArticleDetailsSchema } from 'entities/Article';
 
 export interface StateSchema {
     counter: CounterSchema,
@@ -16,6 +17,7 @@ export interface StateSchema {
     // Асинхронные редьюсеры
     loginForm?: LoginSchema,
     profile?: ProfileSchema,
+    articleDetails?: ArticleDetailsSchema
 }
 
 export type StateSchemaKey = keyof StateSchema;
