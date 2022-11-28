@@ -20,6 +20,10 @@ const Template: ComponentStory<typeof ArticleDetailsPage> = (args) => <ArticleDe
 const article: Article = {
     id: '1',
     title: 'Javascript news',
+    user: {
+        id: '1',
+        username: 'Will',
+    },
     subtitle: 'Что нового в JS за 2022 год?',
     img: 'https://teknotower.com/wp-content/uploads/2020/11/js.png',
     views: 1022,
