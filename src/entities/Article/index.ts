@@ -1,3 +1,4 @@
+export { ArticleViewSelector } from './ui/ArticleViewSelector/ArticleViewSelector';
 export {
     articleDetailsReducer,
     articleDetailsActions,
