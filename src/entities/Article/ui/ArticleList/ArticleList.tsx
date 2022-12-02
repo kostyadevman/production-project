@@ -28,7 +28,7 @@ export const ArticleList = memo((props: ArticleListProps) => {
 
     const renderArticle = (article: Article) => (
         <ArticleListItem
-            key={article.title}
+            key={article.id}
             article={article}
             view={view}
             className={cls.card}
