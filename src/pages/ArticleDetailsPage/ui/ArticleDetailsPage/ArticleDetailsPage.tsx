@@ -11,7 +11,7 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { Text, TextSize } from 'shared/ui/Text/Text';
 import { Page } from 'widgets/Page/Page';
-import { VStack } from 'shared/Stack';
+import { VStack } from 'shared/ui/Stack';
 import { getArticleCommentsIsLoading } from '../../model/selectors/comments';
 import {
     addCommentForArticle,
