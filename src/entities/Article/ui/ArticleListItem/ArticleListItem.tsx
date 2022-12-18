@@ -12,7 +12,7 @@ import { Text } from 'shared/ui/Text/Text';
 import {
     Article, ArticleTextBlock,
 } from '../../model/types/article';
-import { ArticleBlockType, ArticleView } from "../../model/consts/consts";
+import { ArticleBlockType, ArticleView } from '../../model/consts/consts';
 import { ArticleTextBlockComponent } from '../../ui/ArticleTextBlockComponent/ArticleTextBlockComponent';
 import cls from './ArticleListItem.module.scss';
 
