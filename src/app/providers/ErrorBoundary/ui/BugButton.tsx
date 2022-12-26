@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { classNames } from 'shared/lib/classNames/classNames';
-import { Button } from 'shared/ui/Button/Button';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { Button } from '@/shared/ui/Button/Button';
 
 // Компонент для тестирования
 export const BugButton = () => {

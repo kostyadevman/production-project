@@ -5,7 +5,7 @@ export { ArticleSortSelector } from './ui/ArticleSortSelector/ArticleSortSelecto
 export {
     articleDetailsReducer,
     articleDetailsActions,
-} from 'entities/Article/model/slice/articleDetailsSlice';
+} from './model/slice/articleDetailsSlice';
 
 export { ArticleDetails } from './ui/ArticleDetails/ArticleDetails';
 export type { Article } from './model/types/article';
@@ -15,7 +15,7 @@ export {
     ArticleType,
     ArticleBlockType,
 } from './model/consts/consts';
-export type { ArticleDetailsSchema } from 'entities/Article/model/types/articleDetailsSchema';
+export type { ArticleDetailsSchema } from './model/types/articleDetailsSchema';
 export { ArticleList } from './ui/ArticleList/ArticleList';
 export { ArticleListItem } from './ui/ArticleListItem/ArticleListItem';
 export { ArticleTypeTabs } from './ui/ArticleTypeTabs/ArticleTypeTabs';

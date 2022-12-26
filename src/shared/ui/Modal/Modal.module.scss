@@ -18,16 +18,8 @@
     --primary-color: #04ff04;
 }
 
-.overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background: var(--overlay-color);
-}
-
 .content {
+    z-index: var(--modal-z-index);
     max-width: 60%;
     padding: 20px;
     background: var(--bg-color);
