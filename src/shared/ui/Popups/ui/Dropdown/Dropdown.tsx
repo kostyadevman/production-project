@@ -21,7 +21,7 @@ interface DropdownProps {
     trigger: ReactNode;
 }
 
-export function Dropdown(props: DropdownProps) {
+export const Dropdown = (props: DropdownProps) => {
     const {
         className, trigger, items, direction = 'bottom right',
     } = props;
@@ -48,14 +48,23 @@ export function Dropdown(props: DropdownProps) {
 
                     if (item.href) {
                         return (
-                            <Menu.Item key={idx} as={AppLink} to={item.href} disabled={item.disabled}>
+                            <Menu.Item
+                                key={`dropdown-key${idx}`}
+                                as={AppLink}
+                                to={item.href}
+                                disabled={item.disabled}
+                            >
                                 {content}
                             </Menu.Item>
                         );
                     }
 
                     return (
-                        <Menu.Item key={idx} as={Fragment} disabled={item.disabled}>
+                        <Menu.Item
+                            key={`dropdown-key${idx}`}
+                            as={Fragment}
+                            disabled={item.disabled}
+                        >
                             {content}
                         </Menu.Item>
                     );
@@ -64,4 +73,4 @@ export function Dropdown(props: DropdownProps) {
             </Menu.Items>
         </Menu>
     );
-}
+};
