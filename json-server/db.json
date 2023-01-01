@@ -707,5 +707,65 @@
       "username": "will",
       "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
     }
+  ],
+  "article-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "articleId": "2"
+    },
+    {
+      "userId": "1",
+      "articleId": "4",
+      "rate": 2,
+      "feedback": "",
+      "id": "DnsbIrh"
+    },
+    {
+      "userId": "1",
+      "articleId": "7",
+      "rate": 3,
+      "feedback": "sdf",
+      "id": "max_C0L"
+    },
+    {
+      "userId": "1",
+      "articleId": "3",
+      "rate": 1,
+      "feedback": "отстой",
+      "id": "O47IUCg"
+    },
+    {
+      "userId": "1",
+      "articleId": "18",
+      "rate": 2,
+      "feedback": "",
+      "id": "BXhUG7Z"
+    }
+  ],
+  "profile-ratings": [
+    {
+      "id": "1",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "1"
+    },
+    {
+      "id": "2",
+      "rate": 4,
+      "feedback": "Хорошая статья",
+      "userId": "1",
+      "profileId": "2"
+    }
   ]
 }

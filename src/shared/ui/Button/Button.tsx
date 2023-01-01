@@ -26,7 +26,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
     size?: ButtonSize;
     disabled?: boolean;
     children?: ReactNode;
-    fullWidth: boolean;
+    fullWidth?: boolean;
 }
 
 export const Button = (props: ButtonProps) => {
