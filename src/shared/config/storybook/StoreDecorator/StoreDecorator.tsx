@@ -1,5 +1,6 @@
 import { Story } from '@storybook/react';
 import { StateSchema, StoreProvider } from '@/app/providers/StoreProvider';
+// eslint-disable-next-line fsd-helper/layer-imports
 import { articleDetailsReducer } from '@/entities/Article';
 import { addCommentFormReducer } from '@/features/addCommentForm/testing';
 import { loginReducer } from '@/features/authByUsername/testing';

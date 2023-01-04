@@ -64,7 +64,14 @@ module.exports = {
             'error',
             {
                 alias: '@',
-                testFilesPatterns: ['**/*.test.ts', '**/*.test.ts', '**/StoreDecorator.tsx'],
+                testFilesPatterns: ['**/*.test.ts', '**/*.story.*', '**/StoreDecorator.tsx'],
+            },
+        ],
+        'fsd-helper/layer-imports': [
+            'error',
+            {
+                alias: '@',
+                ignoreImportPatterns: ['**/StoreProvider', '**/testing'],
             },
         ],
     },
