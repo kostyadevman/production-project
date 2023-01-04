@@ -60,6 +60,7 @@ module.exports = {
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
         'fsd-helper/path-checker': ['error', { alias: '@' }],
+        'fsd-helper/public-api-imports': ['error', { alias: '@' }],
     },
     globals: {
         __IS_DEV__: true,
