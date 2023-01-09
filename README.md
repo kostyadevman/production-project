@@ -31,6 +31,7 @@ npm run start:dev или npm run start:dev:vite - запуск сервера + 
 - `npm run storybook:build` - Сборка storybook билда
 - `npm run prepare` - прекоммит хуки
 - `npm run generate:slice` - Скрипт для генерации FSD слайсов
+- `npm run postinstall`: - Скрипт для удаления кэша после установки пакетов
 
 ----
 
@@ -197,3 +198,6 @@ Clear.args = {
 - [profileRating](/src/features/profileRating)
 - [ThemeSwitcher](/src/features/ThemeSwitcher)
 - [UI](/src/features/UI)
+- [ArticleViewSelector](/src/features/ArticleSortSelector) - переключатель отображения списка статьей (плитка, список)
+- [ArticleSortSelector](/src/features//ArticleSortSelector) - выбор сортировки списка статьей
+- [ArticleTypeTabs](/src/features/ArticleTypeTabs) - выбор типа статьи
